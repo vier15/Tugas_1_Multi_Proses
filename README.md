@@ -5,6 +5,7 @@ Tugas 1 Multi Proses Kelompok 4 Kelas C2 Ilmu Komputer 2020
 - **2010021** Muhamad FIrmansyah
 - **2001680** Muhammad Ridha Samudra
 - **2007874** Raihan Fitrah V Ramadhan
+- **2003400** Vegatama Firdiady
 
 <h3>Pipe</h3>
 Kelebihan:
