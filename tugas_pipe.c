@@ -45,8 +45,10 @@ int main(int argc, char **argv) {
                     // baca yang ditulis child dari pipe
                     read(fd[0], arrIntParent, sizeof(arrIntParent));
                     int total = 0;
-                    for (int j = 0; j<MSGSIZE; j++) {
-                        total += arrIntParent[i];
+                    if(i < n){
+                        for (int j = 0; j<MSGSIZE; j++) {
+                            total += arrIntParent[j];
+                        }
                     }
                     printf("Total = %d\n", total);
                     }
