@@ -8,6 +8,7 @@ Tugas 1 Multi Proses Kelompok 4 Kelas C2 Ilmu Komputer 2020
 
 <h3>Pipe</h3>
 Kelebihan:
+
 - Fleksibel
 - Dapat dijalankan sebelum anak selesai
 
@@ -16,6 +17,7 @@ Kekurangan:
 
 <h3>Memory Map</h3>
 Kelebihan:
+
 - Membagi memory kepada semua proses
 
 Kekurangan:
