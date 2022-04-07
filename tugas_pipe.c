@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
                     read(fd[0], arrIntParent, sizeof(arrIntParent));
                     int total = 0;
                     for (int j = 0; j<MSGSIZE; j++) {
-                        total += arrIntParent[j];
+                        total += arrIntParent[i];
                     }
                     printf("Total = %d\n", total);
                     }
