@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
                     // tulis data ke pipe
                     int arrIntChild[MSGSIZE] = {rand() % 100,rand() % 100};
                     for(int j = 0 ; j < 2 ;j++){
-                        printf("nilai ke %d = %d\n", i+1, arrIntChild[j]);
+                        printf("nilai ke %d = %d\n", j+1, arrIntChild[j]);
                     }
                     /* tutup bagian input dari pipe */
                     close(fd[0]);
@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
                     read(fd[0], arrIntParent, sizeof(arrIntParent));
                     int total = 0;
                     for (int j = 0; j<MSGSIZE; j++) {
-                        total += arrIntParent[i];
+                        total += arrIntParent[j];
                     }
                     printf("Total = %d\n", total);
                     }
